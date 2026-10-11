@@ -1,4 +1,4 @@
-## ☁️ farfarfun-fundrive
+## ☁️ farfarfun-drive
 
 [farfarfun](https://github.com/farfarfun) 的**网盘 / 云存储产品线**。核心是一套统一的
 `BaseDrive` 接口——用同一份代码操作 Google Drive、阿里云盘、百度网盘、S3、WebDAV 等
@@ -21,7 +21,7 @@ for f in drive.get_file_list("0"):
 
 | 仓库 | 说明 | PyPI |
 |------|------|------|
-| [fundrive](https://github.com/farfarfun-fundrive/fundrive) | 统一网盘操作接口框架，内置 20 个驱动，含 `get_drive()` 工厂、`DriveFile` 模型与统一异常 | [![PyPI](https://img.shields.io/pypi/v/fundrive?style=flat-square)](https://pypi.org/project/fundrive/) |
+| [fundrive](https://github.com/farfarfun-drive/fundrive) | 统一网盘操作接口框架，内置 20 个驱动，含 `get_drive()` 工厂、`DriveFile` 模型与统一异常 | [![PyPI](https://img.shields.io/pypi/v/fundrive?style=flat-square)](https://pypi.org/project/fundrive/) |
 
 ### 独立驱动包
 
@@ -29,25 +29,25 @@ for f in drive.get_file_list("0"):
 
 | 仓库 | 网盘 | 导入路径 | PyPI |
 |------|------|----------|------|
-| [fundrive-alipan](https://github.com/farfarfun-fundrive/fundrive-alipan) | 阿里云盘 | `fundrives.alipan` | [![PyPI](https://img.shields.io/pypi/v/fundrive-alipan?style=flat-square)](https://pypi.org/project/fundrive-alipan/) |
-| [fundrive-baidu](https://github.com/farfarfun-fundrive/fundrive-baidu) | 百度网盘 | `fundrives.baidu` | [![PyPI](https://img.shields.io/pypi/v/fundrive-baidu?style=flat-square)](https://pypi.org/project/fundrive-baidu/) |
-| [fundrive-lanzou](https://github.com/farfarfun-fundrive/fundrive-lanzou) | 蓝奏云 | `fundrives.lanzou` | [![PyPI](https://img.shields.io/pypi/v/fundrive-lanzou?style=flat-square)](https://pypi.org/project/fundrive-lanzou/) |
-| [fundrive-quark](https://github.com/farfarfun-fundrive/fundrive-quark) | 夸克网盘 | `fundrives.quark` | [![PyPI](https://img.shields.io/pypi/v/fundrive-quark?style=flat-square)](https://pypi.org/project/fundrive-quark/) |
+| [fundrive-alipan](https://github.com/farfarfun-drive/fundrive-alipan) | 阿里云盘 | `fundrives.alipan` | [![PyPI](https://img.shields.io/pypi/v/fundrive-alipan?style=flat-square)](https://pypi.org/project/fundrive-alipan/) |
+| [fundrive-baidu](https://github.com/farfarfun-drive/fundrive-baidu) | 百度网盘 | `fundrives.baidu` | [![PyPI](https://img.shields.io/pypi/v/fundrive-baidu?style=flat-square)](https://pypi.org/project/fundrive-baidu/) |
+| [fundrive-lanzou](https://github.com/farfarfun-drive/fundrive-lanzou) | 蓝奏云 | `fundrives.lanzou` | [![PyPI](https://img.shields.io/pypi/v/fundrive-lanzou?style=flat-square)](https://pypi.org/project/fundrive-lanzou/) |
+| [fundrive-quark](https://github.com/farfarfun-drive/fundrive-quark) | 夸克网盘 | `fundrives.quark` | [![PyPI](https://img.shields.io/pypi/v/fundrive-quark?style=flat-square)](https://pypi.org/project/fundrive-quark/) |
 
 ### 蓝奏云专项
 
 | 仓库 | 说明 |
 |------|------|
-| [funlanzou](https://github.com/farfarfun-fundrive/funlanzou) | 蓝奏云 Python SDK 与 PyQt6 桌面客户端：登录、上传下载、分享提取、回收站管理，并绕过上传格式与体积限制 |
-| [lanzou-gui](https://github.com/farfarfun-fundrive/lanzou-gui) | 蓝奏云 GUI 的 fork 开发版（上游已停止维护） |
+| [funlanzou](https://github.com/farfarfun-drive/funlanzou) | 蓝奏云 Python SDK 与 PyQt6 桌面客户端：登录、上传下载、分享提取、回收站管理，并绕过上传格式与体积限制 |
+| [lanzou-gui](https://github.com/farfarfun-drive/lanzou-gui) | 蓝奏云 GUI 的 fork 开发版（上游已停止维护） |
 
 ### 开发与编排
 
 | 仓库 | 说明 |
 |------|------|
-| [fundrive-dev](https://github.com/farfarfun-fundrive/fundrive-dev) | 聚合上面 5 个包的子模块编排仓库，一次 clone 拉全产品线，供跨包联调使用 |
-| [fundrive-api](https://github.com/farfarfun-fundrive/fundrive-api) | 占位仓库，HTTP API 形态的 fundrive，尚未开工 |
-| [fundrive-web](https://github.com/farfarfun-fundrive/fundrive-web) | 占位仓库，Web 界面形态的 fundrive，尚未开工 |
+| [fundrive-dev](https://github.com/farfarfun-drive/fundrive-dev) | 聚合上面 5 个包的子模块编排仓库，一次 clone 拉全产品线，供跨包联调使用 |
+| [fundrive-api](https://github.com/farfarfun-drive/fundrive-api) | 占位仓库，HTTP API 形态的 fundrive，尚未开工 |
+| [fundrive-web](https://github.com/farfarfun-drive/fundrive-web) | 占位仓库，Web 界面形态的 fundrive，尚未开工 |
 
 ---
 
@@ -79,7 +79,7 @@ pip install fundrive-alipan fundrive-quark
 **本地**：本地文件系统（便于测试和统一代码路径）
 
 外加独立包形式的夸克网盘驱动（`fundrive-quark`）。完整的驱动实现状态矩阵见
-[fundrive README](https://github.com/farfarfun-fundrive/fundrive#支持的云存储服务)；
+[fundrive README](https://github.com/farfarfun-drive/fundrive#支持的云存储服务)；
 仓库里另有 `pan115`、`ossutil` 等尚未列入验收矩阵的在研驱动。
 
 ## 🗂️ 其他 farfarfun 组织
