@@ -1,6 +1,6 @@
 ## ☁️ farfarfun-drive
 
-[farfarfun](https://github.com/farfarfun) 的**网盘 / 云存储产品线**。核心是一套统一的
+[farfarfun](https://github.com/farfarfun) 的**网盘 / 云存储产品线**，仓库攒够、功能做完善后从主组织独立出来的子组织。核心是一套统一的
 `BaseDrive` 接口——用同一份代码操作 Google Drive、阿里云盘、百度网盘、S3、WebDAV 等
 20+ 种服务，换网盘只需换一个驱动。
 
@@ -83,6 +83,8 @@ pip install fundrive-alipan fundrive-quark
 仓库里另有 `pan115`、`ossutil` 等尚未列入验收矩阵的在研驱动。
 
 ## 🗂️ 其他 farfarfun 组织
+
+farfarfun 是一主多子结构：新东西默认先在主组织孵化，等某个模块仓库攒多、功能完善后独立成子组织；一开始就确定会自成一条产品线的，直接建子组织。
 
 | 组织 | 产物 |
 |------|------|
