@@ -1,3 +1,12 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/lockup-on-dark/drive-160.png">
+    <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/lockup/drive-160.png"
+         height="80" alt="farfarfun-drive">
+  </picture>
+</p>
+
 ## ☁️ farfarfun-drive
 
 [farfarfun](https://github.com/farfarfun) 的**网盘 / 云存储产品线**，由主组织孵化成熟后独立为子组织。核心是一套统一的
