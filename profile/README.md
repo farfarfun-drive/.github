@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/lockup-on-dark/drive-160.png">
-    <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/lockup/drive-160.png"
+            srcset="https://farfarfun.com/brand/png/lockup-on-dark/drive-256.png">
+    <img src="https://farfarfun.com/brand/png/lockup/drive-256.png"
          height="80" alt="farfarfun-drive">
   </picture>
 </p>
